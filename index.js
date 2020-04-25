@@ -1,10 +1,3 @@
-$('.count').counterUp({
-   delay: 10,
-   time: 1000
-});
-$("#update-icon").on('click',function(event) {
-	$("#update-icon").toggleClass('update-animation');
-	setTimeout(function() {
-		$("#updation").html('<i id="update-icon" class="fas fa-sync-alt"></i> Updated recently');
-	},1000);	
-});
+$('.count').counterUp({delay:10,time:1000});$("#update-icon").on('click',function(event){var randomnum=Math.floor(Math.random()*5)+1;$("#update-icon").toggleClass('update-animation');setTimeout(function(){$("#updation").html(`<i id="update-icon" class="fas fa-sync-alt"></i> Updated ${randomnum} hours ago`)},1000)});$(".mob-trend-btn").on('click',function(event){$(".trend-showhide-div").slideToggle();var value=$(".mob-trend-btn").html();if(value==="More ↓"){$(".mob-trend-btn").html("Less ↑")}
+else{$(".mob-trend-btn").html("More ↓")}});$(".mob-prod-btn").on('click',function(event){$(".prod-showhide-div").slideToggle();var value=$(".mob-prod-btn").html();if(value==="More ↓"){$(".mob-prod-btn").html("Less ↑")}
+else{$(".mob-prod-btn").html("More ↓")}})
