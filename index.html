@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <!-- ------------Font Awesome--------------- -->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!-- ------------Google Fonts----------- -->
@@ -16,7 +17,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <!-- -------favicon------ -->
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
-    <title>CoronaMeter</title>
+    <title>CoronaWarrior</title>
   </head>
   <body>
 
@@ -194,18 +195,7 @@
           </div>
         </div>
     </section>
-    <!-- <section class="red-alert-section">
-      <div class="container red-alert-container">
-        <div class="col-12">
-          <p>
-            You are advised for testing as your infection risk is high.Please call the toll-free help line 1075 to schedule your testing.
-            <br><br>  
-            List of testing centers:https://icmr.nic.in/node/39071 
-            <br><br>
-            Visit https://www.mohfw.gov.in/ for more informations on testing and quarantine guidelines
-          </p>
-        </div>
-    </section> -->
+
 
       <img src="images/doctor.png" id="doctor-img">
     </div>
@@ -241,8 +231,6 @@
       <div class="scroll"><span id="scroll-icon"><i class="fas fa-arrow-alt-circle-down fa-3x"></i></span></div>
     </div>
 
-    <!-- <i class="fas fa-shield-virus mr-2" id="shield"></i> -->
-
     <div class="container second-container">
       <h2>Important Informations</h2>
 
@@ -252,19 +240,42 @@
         <div class="info-col col-md-4">
           <div class="info-div info-div-mob">
             <h3>Total Cases</h3>
-            <p class="count">2,941,739</p>
+            <p class="countno" id="total-global-confirmed">2735598</p>
           </div>
         </div>
         <div class="info-col col-md-4">
           <div class="info-div info-div-mob">
             <h3>Deaths</h3>
-            <p class="count">203,849</p>
+            <p class="countno" id="total-global-deaths">191378</p>
           </div>
         </div>
         <div class="info-col col-md-4">
           <div class="info-div info-div-mob"> 
             <h3>Recovered</h3>
-            <p class="count">842,151</p>
+            <p class="countno" id="total-global-recovered">751730</p>
+          </div>
+        </div>
+
+
+
+        <h3 class="info-row-fh3 mt-5">COVID-19 in INDIA</h3>
+        <p class="info-fp" id="twp">Providing meaningful coronavirus-related keywords from INDIA allows you to understand what the public condition in INDIA.</p>
+        <div class="info-col col-md-4">
+          <div class="info-div info-div-mob">
+            <h3>Total Cases</h3>
+            <p class="countno" id="total-india-confirmed">25890</p>
+          </div>
+        </div>
+        <div class="info-col col-md-4">
+          <div class="info-div info-div-mob">
+            <h3>Deaths</h3>
+            <p class="countno" id="total-india-deaths">681</p>
+          </div>
+        </div>
+        <div class="info-col col-md-4">
+          <div class="info-div info-div-mob"> 
+            <h3>Recovered</h3>
+            <p class="countno" id="total-india-recovered">4523</p>
           </div>
         </div>
       </div>
@@ -346,7 +357,7 @@
       </div>
       
 
-      <!-- ----------------Symptoms and preventions----------------- -->
+      <!-- ------Symptoms and preventions--------- -->
       <div class="container allinfo-container">
         <h2>Symptoms & Preventions</h2>
         <div class="row allinfo-row">
@@ -570,14 +581,10 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
     <!-- -------jQuery link------- -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- ------------counter-------------- -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
-
-
     <!-- --------My JavaScript-------- -->
     <script type="text/javascript" src="index.js"></script>
   </body>
