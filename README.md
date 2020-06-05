@@ -1,1 +1,1 @@
-# coronameter
+# CoronaWarrior
